@@ -35,7 +35,8 @@ If you receive an error message stating that the execution of scripts is disable
 If you encounter issues with the email notification system, make sure that the SMTP server settings in the PowerShell script are correct and that the fake SMTP server is running. 
 
 
-#link to repo 
+# link to repo 
+
 https://github.com/TomMc608/IN609_OE1
 
 
