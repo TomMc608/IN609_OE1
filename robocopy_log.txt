@@ -1,0 +1,785 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Friday, 31 March 2023 11:06:37 pm
+   Source : C:\Users\Tom\Desktop\IN609_OE1\
+     Dest : C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /PURGE /MIR /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   6	C:\Users\Tom\Desktop\IN609_OE1\
+	*EXTRA Dir        -1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\accounting\
+	  *EXTRA File 		      12	data_0
+	  *EXTRA File 		     115	data_1
+	  *EXTRA File 		     128	data_2
+	  *EXTRA File 		      27	data_3
+	  *EXTRA File 		     133	data_5
+	  *EXTRA File 		     215	data_6
+	  *EXTRA File 		      32	data_7
+	  *EXTRA File 		      97	data_8
+	  *EXTRA File 		      31	doc_0
+	  *EXTRA File 		      41	doc_1
+	  *EXTRA File 		     113	doc_3
+	  *EXTRA File 		      83	doc_5
+	  *EXTRA File 		     420	doc_7
+	  *EXTRA File 		      86	doc_8
+	  *EXTRA File 		      32	log_0
+	  *EXTRA File 		     144	log_2
+	  *EXTRA File 		      27	log_4
+	  *EXTRA File 		      47	log_5
+	  *EXTRA File 		     157	log_7
+	  *EXTRA File 		      31	log_8
+	*EXTRA Dir        -1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\logistics\
+	  *EXTRA File 		       4	data_0
+	  *EXTRA File 		      72	data_1
+	  *EXTRA File 		     108	data_2
+	  *EXTRA File 		     112	data_3
+	  *EXTRA File 		     112	data_4
+	  *EXTRA File 		      47	data_5
+	  *EXTRA File 		      45	data_6
+	  *EXTRA File 		       7	data_7
+	  *EXTRA File 		     124	data_8
+	  *EXTRA File 		     115	doc_0
+	  *EXTRA File 		     131	doc_2
+	  *EXTRA File 		     109	doc_3
+	  *EXTRA File 		     130	doc_4
+	  *EXTRA File 		      88	doc_5
+	  *EXTRA File 		      99	doc_6
+	  *EXTRA File 		     188	doc_7
+	  *EXTRA File 		       0	doc_8
+	  *EXTRA File 		     127	log_3
+	  *EXTRA File 		      52	log_4
+	  *EXTRA File 		     147	log_5
+	  *EXTRA File 		      77	log_6
+	  *EXTRA File 		     211	log_7
+	  *EXTRA File 		      26	log_8
+	*EXTRA Dir        -1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\production\
+	  *EXTRA File 		     165	data_0
+	  *EXTRA File 		      68	data_1
+	  *EXTRA File 		      80	data_2
+	  *EXTRA File 		      42	data_3
+	  *EXTRA File 		     120	data_4
+	  *EXTRA File 		     123	data_5
+	  *EXTRA File 		       5	data_7
+	  *EXTRA File 		      47	data_8
+	  *EXTRA File 		      40	doc_2
+	  *EXTRA File 		      39	doc_3
+	  *EXTRA File 		      86	doc_4
+	  *EXTRA File 		     111	doc_5
+	  *EXTRA File 		     102	doc_6
+	  *EXTRA File 		     129	doc_8
+	  *EXTRA File 		      13	log_0
+	  *EXTRA File 		       0	log_1
+	  *EXTRA File 		      48	log_2
+	  *EXTRA File 		     158	log_3
+	  *EXTRA File 		       6	log_6
+	  *EXTRA File 		     161	log_7
+	  *EXTRA File 		       5	log_8
+	*EXTRA Dir        -1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\project1\
+	  *EXTRA File 		      34	data_0
+	  *EXTRA File 		     420	data_1
+	  *EXTRA File 		     268	data_2
+	  *EXTRA File 		     147	data_3
+	  *EXTRA File 		     175	data_4
+	  *EXTRA File 		     522	data_5
+	  *EXTRA File 		     387	data_8
+	  *EXTRA File 		     133	doc_1
+	  *EXTRA File 		     186	doc_2
+	  *EXTRA File 		      79	doc_4
+	  *EXTRA File 		     198	doc_5
+	  *EXTRA File 		     456	doc_6
+	  *EXTRA File 		     208	doc_8
+	  *EXTRA File 		     237	log_1
+	  *EXTRA File 		      76	log_2
+	  *EXTRA File 		      79	log_3
+	  *EXTRA File 		      73	log_4
+	  *EXTRA File 		      20	log_5
+	  *EXTRA File 		      53	log_6
+	  *EXTRA File 		      40	log_7
+	  *EXTRA File 		      38	log_8
+	*EXTRA Dir        -1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\project2\
+	  *EXTRA File 		      35	data_0
+	  *EXTRA File 		      12	data_1
+	  *EXTRA File 		      56	data_2
+	  *EXTRA File 		     190	data_3
+	  *EXTRA File 		       7	data_4
+	  *EXTRA File 		      46	data_5
+	  *EXTRA File 		     124	data_6
+	  *EXTRA File 		     143	data_8
+	  *EXTRA File 		     250	doc_0
+	  *EXTRA File 		       6	doc_2
+	  *EXTRA File 		      76	doc_3
+	  *EXTRA File 		      27	doc_4
+	  *EXTRA File 		     114	doc_5
+	  *EXTRA File 		      56	doc_6
+	  *EXTRA File 		      23	doc_8
+	  *EXTRA File 		     181	log_0
+	  *EXTRA File 		     115	log_1
+	  *EXTRA File 		      44	log_2
+	  *EXTRA File 		     124	log_4
+	  *EXTRA File 		      66	log_5
+	  *EXTRA File 		      74	log_6
+	  *EXTRA File 		       7	log_7
+	  *EXTRA File 		      62	log_8
+	*EXTRA Dir        -1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\sales\
+	  *EXTRA File 		     103	data_0
+	  *EXTRA File 		     297	data_1
+	  *EXTRA File 		      14	data_4
+	  *EXTRA File 		      91	data_7
+	  *EXTRA File 		     109	data_8
+	  *EXTRA File 		      35	doc_0
+	  *EXTRA File 		     295	doc_4
+	  *EXTRA File 		      30	doc_5
+	  *EXTRA File 		     122	doc_6
+	  *EXTRA File 		     167	doc_7
+	  *EXTRA File 		      82	doc_8
+	  *EXTRA File 		     232	log_0
+	  *EXTRA File 		       2	log_1
+	  *EXTRA File 		      88	log_2
+	  *EXTRA File 		     112	log_6
+	  *EXTRA File 		     151	log_7
+	  *EXTRA File 		      82	log_8
+	*EXTRA Dir        -1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\warehouse\
+	  *EXTRA File 		      89	data_0
+	  *EXTRA File 		     170	data_1
+	  *EXTRA File 		      21	data_2
+	  *EXTRA File 		     125	data_3
+	  *EXTRA File 		      28	data_4
+	  *EXTRA File 		      69	data_5
+	  *EXTRA File 		     119	data_6
+	  *EXTRA File 		     133	data_7
+	  *EXTRA File 		      44	doc_0
+	  *EXTRA File 		      23	doc_1
+	  *EXTRA File 		      19	doc_2
+	  *EXTRA File 		      36	doc_3
+	  *EXTRA File 		     115	doc_4
+	  *EXTRA File 		      21	doc_5
+	  *EXTRA File 		     115	doc_7
+	  *EXTRA File 		      88	doc_8
+	  *EXTRA File 		      40	log_0
+	  *EXTRA File 		     210	log_1
+	  *EXTRA File 		     135	log_2
+	  *EXTRA File 		     104	log_3
+	  *EXTRA File 		      57	log_4
+	  *EXTRA File 		      14	log_5
+	  *EXTRA File 		      81	log_6
+	  *EXTRA File 		     120	log_7
+	  *EXTRA File 		     133	log_8
+	  *EXTRA File 		   22823	FileModifier.jar
+	    New File  		   1.7 m	fakeSMTP-2.0.jar 14%   28%   42%   56%   70%   85%   99%   99%  100%  
+	    New File  		       0	New Text Document.txt
+	    New File  		    2844	PowerShell.ps1100%  
+	    New File  		       2	readme100%  
+	    New File  		       0	robocopy_log.txt100%  
+	    New File  		     460	robocopy_script.ps1100%  
+	  New Dir          6	C:\Users\Tom\Desktop\IN609_OE1\.git\
+	    New File  		      43	COMMIT_EDITMSG100%  
+	    New File  		     300	config100%  
+	    New File  		      73	description100%  
+	    New File  		      21	HEAD100%  
+	    New File  		    2643	index100%  
+	    New File  		     112	packed-refs100%  
+	  New Dir         13	C:\Users\Tom\Desktop\IN609_OE1\.git\hooks\
+	    New File  		     478	applypatch-msg.sample100%  
+	    New File  		     896	commit-msg.sample100%  
+	    New File  		    4726	fsmonitor-watchman.sample100%  
+	    New File  		     189	post-update.sample100%  
+	    New File  		     424	pre-applypatch.sample100%  
+	    New File  		    1643	pre-commit.sample100%  
+	    New File  		     416	pre-merge-commit.sample100%  
+	    New File  		    1374	pre-push.sample100%  
+	    New File  		    4898	pre-rebase.sample100%  
+	    New File  		     544	pre-receive.sample100%  
+	    New File  		    1492	prepare-commit-msg.sample100%  
+	    New File  		    2783	push-to-checkout.sample100%  
+	    New File  		    3650	update.sample100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\info\
+	    New File  		     240	exclude100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\logs\
+	    New File  		     525	HEAD100%  
+	  New Dir          0	C:\Users\Tom\Desktop\IN609_OE1\.git\logs\refs\
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\logs\refs\heads\
+	    New File  		     525	main100%  
+	  New Dir          0	C:\Users\Tom\Desktop\IN609_OE1\.git\logs\refs\remotes\
+	  New Dir          2	C:\Users\Tom\Desktop\IN609_OE1\.git\logs\refs\remotes\origin\
+	    New File  		     184	HEAD100%  
+	    New File  		     290	main100%  
+	  New Dir          0	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\0d\
+	    New File  		      80	d0727eded20505950e34401b06f131401b46ef100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\18\
+	    New File  		      24	bd41c3b278f441c8f18be026c29531a9a8346b100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\26\
+	    New File  		     340	424d29e74eb8c57793dd2283e96af6b6849002100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\28\
+	    New File  		      18	23f3f523a4b1c0697169327b22378f17aba15f100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\2b\
+	    New File  		   1.6 m	b5330e8635c5f3955b8e8c36a879b8b30b7748 15%   31%   46%   62%   77%   93%  100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\32\
+	    New File  		      44	f9969962b8779b0f31bbdb92d1988e92bf62d8100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\40\
+	    New File  		      23	a91e4add8242efeb82993b99e922861137e255100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\41\
+	    New File  		      26	4fd7dd99c5973aae9543a5aef2940946ab3528100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\4c\
+	    New File  		     326	8c0ea63fa52ba87255630e5c64cc42d73c295a100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\50\
+	    New File  		      60	fc34fee7aa55ec978825d77409ce71d878cc36100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\5d\
+	    New File  		      37	1d050fca7128fca6cdb55b025d2e27575e0bcd100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\5f\
+	    New File  		      54	94329e7ac1f60bae599da46e1925fe9e4a432a100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\6e\
+	    New File  		      73	86f28342d3f99bfe7290b9a1ffd7dfe403136a100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\70\
+	    New File  		      55	775c6f030f25a2651c86711b77c9961b060daf100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\71\
+	    New File  		      75	aaeacc3cf9a5cc12f7dd98d2b8d4b78bbe044c100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\73\
+	    New File  		      51	efc3d843fa1ec4649ea0936ed3b2768adee6a6100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\7b\
+	    New File  		      41	482447a16795b51bd41698f635629b623f8639100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\7c\
+	    New File  		      32	f17e8d8fa1bf864c656e627a769d05897dd08b100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\83\
+	    New File  		      80	acf96d0c055bdf0556acda953f8c37cb0c6c38100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\87\
+	    New File  		      58	ad4d3d51d9ca3bfa7dd3693a09b352fe8b4a8d100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\8c\
+	    New File  		     123	90f0a204e167506bd7da89b842acb075ea7c4f100%  
+	  New Dir          2	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\8f\
+	    New File  		      50	117d000b0602de4055d8a14b85a5e6503ff076100%  
+	    New File  		      35	e23185846b1addae1a4723f55c66d119836398100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\96\
+	    New File  		     166	e6436b5707a9c9da69b7526deb7a88352d5f34100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\9b\
+	    New File  		      79	213c875736945335d777d8e25e9236bfbe065c100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\9e\
+	    New File  		      60	79f51b4bf8f74f83082a50f65a5bd763216e22100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\a0\
+	    New File  		      75	ac5fff14bd27b89731d06f1bc523222491a9c6100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\a1\
+	    New File  		      40	0b7503e63def2f75b6c7e108ac9f246d2dcf5d100%  
+	  New Dir          2	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\aa\
+	    New File  		      50	add4af476b5c3ddabaeb09951070c8d4cea2fa100%  
+	    New File  		      35	f2040f9a51812d82a44e753b6bac25c46f9cc1100%  
+	  New Dir          2	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\ab\
+	    New File  		      50	5ef2a5d4a58aa0543fe3c428c9a52d8399c9f5100%  
+	    New File  		      56	9760f4e7e2901332624eb010dfc38e52087b2d100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\b3\
+	    New File  		     104	9b78823ca318be9891dd9c991a7fbe211e83fd100%  
+	  New Dir          2	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\b5\
+	    New File  		      32	f10d7e39309a6e6780774e21b540fce4927f8b100%  
+	    New File  		      36	f5344df50e5b068c99374574217cfeaf791bbd100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\b7\
+	    New File  		     123	4d6bdab57cbd33dd9ca6848b14e02779bb876e100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\b9\
+	    New File  		     184	30edd0402f40d2a79b920865b5c44e7b81cf20100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\bf\
+	    New File  		      44	bd88d1117b389efbbd53abadb982c689d75aa2100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\c7\
+	    New File  		     179	c6af4e86595ac51350a9600b81571d82cad825100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\c9\
+	    New File  		      22	c90d6175479d96bb3fa177968de30f7ff41bd8100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\cd\
+	    New File  		    8813	62536d295e099e439b45a98a799f3d95fae4d3100%  
+	  New Dir          2	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\d3\
+	    New File  		     922	20c8242acf463d12bf4a098607683d822a75d8100%  
+	    New File  		     393	aa07e82c3fabf50b7b80b1bdd46f1d715a9375100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\d7\
+	    New File  		      26	9971a2851368a545e7e2cd0def6fd4cb6507fc100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\e1\
+	    New File  		      65	68a5c861167451f9ec03f4379e4234c002ded7100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\e6\
+	    New File  		      15	9de29bb2d1d6434b8b29ae775ad8c2e48c5391100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\eb\
+	    New File  		      49	1966a39a9f20528608364f83b7b59efcc8e74e100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\ec\
+	    New File  		      74	839179bf61a8a24edf0aae5b37606a69cc6df9100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\ee\
+	    New File  		     130	227e2fba3697fe736a84b221c9678f4f9c5e8a100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\f0\
+	    New File  		      50	c2a14a986a640110f7941080c2cdac98d815d1100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\fd\
+	    New File  		      64	3a5476004b4b37ba01038a837621295920444f100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\fe\
+	    New File  		      50	ca41daaf2b045114c0738404fea9c005cb8815100%  
+	  New Dir          0	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\info\
+	  New Dir          2	C:\Users\Tom\Desktop\IN609_OE1\.git\objects\pack\
+	    New File  		    1156	pack-3a64850ab2a6c2e42dd7122101be676739c09367.idx100%  
+	    New File  		     590	pack-3a64850ab2a6c2e42dd7122101be676739c09367.pack100%  
+	  New Dir          0	C:\Users\Tom\Desktop\IN609_OE1\.git\refs\
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\.git\refs\heads\
+	    New File  		      41	main100%  
+	  New Dir          0	C:\Users\Tom\Desktop\IN609_OE1\.git\refs\remotes\
+	  New Dir          2	C:\Users\Tom\Desktop\IN609_OE1\.git\refs\remotes\origin\
+	    New File  		      30	HEAD100%  
+	    New File  		      41	main100%  
+	  New Dir          0	C:\Users\Tom\Desktop\IN609_OE1\.git\refs\tags\
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files\
+	    New File  		   22823	FileModifier.jar 99%  100%  
+	  New Dir         22	C:\Users\Tom\Desktop\IN609_OE1\Files\accounting\
+	    New File  		     150	data_0100%  
+	    New File  		     230	data_1100%  
+	    New File  		     211	data_2100%  
+	    New File  		       5	data_3100%  
+	    New File  		      16	data_5100%  
+	    New File  		     229	data_6100%  
+	    New File  		      70	data_7100%  
+	    New File  		     223	data_8100%  
+	    New File  		      68	doc_0100%  
+	    New File  		      82	doc_1100%  
+	    New File  		      31	doc_2100%  
+	    New File  		      90	doc_5100%  
+	    New File  		     183	doc_8100%  
+	    New File  		      39	log_0100%  
+	    New File  		      88	log_1100%  
+	    New File  		      12	log_2100%  
+	    New File  		       8	log_3100%  
+	    New File  		     104	log_4100%  
+	    New File  		      61	log_5100%  
+	    New File  		      40	log_6100%  
+	    New File  		     173	log_7100%  
+	    New File  		      48	log_8100%  
+	  New Dir         20	C:\Users\Tom\Desktop\IN609_OE1\Files\logistics\
+	    New File  		      69	data_0100%  
+	    New File  		      47	data_1100%  
+	    New File  		      38	data_2100%  
+	    New File  		     173	data_4100%  
+	    New File  		      18	data_6100%  
+	    New File  		       7	data_7100%  
+	    New File  		     141	data_8100%  
+	    New File  		      15	doc_1100%  
+	    New File  		       5	doc_2100%  
+	    New File  		      34	doc_3100%  
+	    New File  		     130	doc_4100%  
+	    New File  		     230	doc_6100%  
+	    New File  		      34	doc_7100%  
+	    New File  		      47	log_0100%  
+	    New File  		      96	log_2100%  
+	    New File  		      46	log_3100%  
+	    New File  		      54	log_4100%  
+	    New File  		      28	log_6100%  
+	    New File  		     248	log_7100%  
+	    New File  		      51	log_8100%  
+	  New Dir         23	C:\Users\Tom\Desktop\IN609_OE1\Files\production\
+	    New File  		      47	data_0100%  
+	    New File  		      84	data_1100%  
+	    New File  		      96	data_2100%  
+	    New File  		     112	data_3100%  
+	    New File  		      41	data_5100%  
+	    New File  		      77	data_6100%  
+	    New File  		      38	data_7100%  
+	    New File  		      47	data_8100%  
+	    New File  		      45	doc_2100%  
+	    New File  		      19	doc_4100%  
+	    New File  		     159	doc_5100%  
+	    New File  		     189	doc_6100%  
+	    New File  		     117	doc_7100%  
+	    New File  		      42	doc_8100%  
+	    New File  		     100	log_0100%  
+	    New File  		      66	log_1100%  
+	    New File  		     159	log_2100%  
+	    New File  		     181	log_3100%  
+	    New File  		      79	log_4100%  
+	    New File  		      82	log_5100%  
+	    New File  		      25	log_6100%  
+	    New File  		     257	log_7100%  
+	    New File  		      54	log_8100%  
+	  New Dir         21	C:\Users\Tom\Desktop\IN609_OE1\Files\project1\
+	    New File  		      16	data_1100%  
+	    New File  		      26	data_3100%  
+	    New File  		     191	data_4100%  
+	    New File  		     555	data_5100%  
+	    New File  		      34	data_6100%  
+	    New File  		      59	data_8100%  
+	    New File  		      53	doc_0100%  
+	    New File  		       5	doc_1100%  
+	    New File  		     199	doc_2100%  
+	    New File  		      12	doc_4100%  
+	    New File  		     203	doc_5100%  
+	    New File  		      30	doc_6100%  
+	    New File  		      29	doc_7100%  
+	    New File  		      36	doc_8100%  
+	    New File  		     310	log_1100%  
+	    New File  		      27	log_2100%  
+	    New File  		      74	log_4100%  
+	    New File  		      81	log_5100%  
+	    New File  		      97	log_6100%  
+	    New File  		      21	log_7100%  
+	    New File  		      77	log_8100%  
+	  New Dir         18	C:\Users\Tom\Desktop\IN609_OE1\Files\project2\
+	    New File  		      57	data_0100%  
+	    New File  		     190	data_3100%  
+	    New File  		      47	data_5100%  
+	    New File  		     100	data_6100%  
+	    New File  		       1	data_7100%  
+	    New File  		     244	data_8100%  
+	    New File  		     376	doc_0100%  
+	    New File  		      21	doc_1100%  
+	    New File  		      67	doc_3100%  
+	    New File  		     122	doc_4100%  
+	    New File  		     213	doc_6100%  
+	    New File  		      57	doc_7100%  
+	    New File  		      96	doc_8100%  
+	    New File  		     181	log_0100%  
+	    New File  		      22	log_1100%  
+	    New File  		      74	log_2100%  
+	    New File  		      52	log_3100%  
+	    New File  		       1	log_7100%  
+	  New Dir         18	C:\Users\Tom\Desktop\IN609_OE1\Files\sales\
+	    New File  		      68	data_0100%  
+	    New File  		      99	data_2100%  
+	    New File  		      34	data_3100%  
+	    New File  		      66	data_6100%  
+	    New File  		     144	data_7100%  
+	    New File  		       8	doc_0100%  
+	    New File  		      32	doc_2100%  
+	    New File  		      21	doc_3100%  
+	    New File  		      49	doc_4100%  
+	    New File  		      53	doc_5100%  
+	    New File  		     243	doc_7100%  
+	    New File  		      18	log_1100%  
+	    New File  		     232	log_2100%  
+	    New File  		       6	log_3100%  
+	    New File  		      17	log_5100%  
+	    New File  		      34	log_6100%  
+	    New File  		      40	log_7100%  
+	    New File  		      24	log_8100%  
+	  New Dir         17	C:\Users\Tom\Desktop\IN609_OE1\Files\warehouse\
+	    New File  		      57	data_2100%  
+	    New File  		     153	data_3100%  
+	    New File  		       4	data_4100%  
+	    New File  		      36	data_5100%  
+	    New File  		      32	data_8100%  
+	    New File  		      81	doc_0100%  
+	    New File  		     117	doc_1100%  
+	    New File  		      31	doc_2100%  
+	    New File  		      72	doc_4100%  
+	    New File  		     150	doc_5100%  
+	    New File  		      60	doc_6100%  
+	    New File  		     111	doc_8100%  
+	    New File  		     143	log_0100%  
+	    New File  		     241	log_1100%  
+	    New File  		     197	log_2100%  
+	    New File  		     246	log_3100%  
+	    New File  		      59	log_5100%  
+	  New Dir          6	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\
+	    New File  		   1.7 m	fakeSMTP-2.0.jar 14%   28%   42%   56%   70%   85%   99%   99%  100%  
+	    New File  		       0	New Text Document.txt
+	    New File  		    2844	PowerShell.ps1100%  
+	    New File  		       2	readme100%  
+	    New File  		    6514	robocopy_log.txt100%  
+	    New File  		     460	robocopy_script.ps1100%  
+	  New Dir          6	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\
+	    New File  		      43	COMMIT_EDITMSG100%  
+	    New File  		     300	config100%  
+	    New File  		      73	description100%  
+	    New File  		      21	HEAD100%  
+	    New File  		    2643	index100%  
+	    New File  		     112	packed-refs100%  
+	  New Dir         13	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\hooks\
+	    New File  		     478	applypatch-msg.sample100%  
+	    New File  		     896	commit-msg.sample100%  
+	    New File  		    4726	fsmonitor-watchman.sample100%  
+	    New File  		     189	post-update.sample100%  
+	    New File  		     424	pre-applypatch.sample100%  
+	    New File  		    1643	pre-commit.sample100%  
+	    New File  		     416	pre-merge-commit.sample100%  
+	    New File  		    1374	pre-push.sample100%  
+	    New File  		    4898	pre-rebase.sample100%  
+	    New File  		     544	pre-receive.sample100%  
+	    New File  		    1492	prepare-commit-msg.sample100%  
+	    New File  		    2783	push-to-checkout.sample100%  
+	    New File  		    3650	update.sample100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\info\
+	    New File  		     240	exclude100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\logs\
+	    New File  		     525	HEAD100%  
+	  New Dir          0	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\logs\refs\
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\logs\refs\heads\
+	    New File  		     525	main100%  
+	  New Dir          0	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\logs\refs\remotes\
+	  New Dir          2	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\logs\refs\remotes\origin\
+	    New File  		     184	HEAD100%  
+	    New File  		     290	main100%  
+	  New Dir          0	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\0d\
+	    New File  		      80	d0727eded20505950e34401b06f131401b46ef100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\18\
+	    New File  		      24	bd41c3b278f441c8f18be026c29531a9a8346b100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\26\
+	    New File  		     340	424d29e74eb8c57793dd2283e96af6b6849002100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\28\
+	    New File  		      18	23f3f523a4b1c0697169327b22378f17aba15f100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\2b\
+	    New File  		   1.6 m	b5330e8635c5f3955b8e8c36a879b8b30b7748 15%   31%   46%   62%   77%   93%  100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\32\
+	    New File  		      44	f9969962b8779b0f31bbdb92d1988e92bf62d8100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\40\
+	    New File  		      23	a91e4add8242efeb82993b99e922861137e255100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\41\
+	    New File  		      26	4fd7dd99c5973aae9543a5aef2940946ab3528100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\4c\
+	    New File  		     326	8c0ea63fa52ba87255630e5c64cc42d73c295a100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\50\
+	    New File  		      60	fc34fee7aa55ec978825d77409ce71d878cc36100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\5d\
+	    New File  		      37	1d050fca7128fca6cdb55b025d2e27575e0bcd100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\5f\
+	    New File  		      54	94329e7ac1f60bae599da46e1925fe9e4a432a100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\6e\
+	    New File  		      73	86f28342d3f99bfe7290b9a1ffd7dfe403136a100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\70\
+	    New File  		      55	775c6f030f25a2651c86711b77c9961b060daf100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\71\
+	    New File  		      75	aaeacc3cf9a5cc12f7dd98d2b8d4b78bbe044c100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\73\
+	    New File  		      51	efc3d843fa1ec4649ea0936ed3b2768adee6a6100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\7b\
+	    New File  		      41	482447a16795b51bd41698f635629b623f8639100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\7c\
+	    New File  		      32	f17e8d8fa1bf864c656e627a769d05897dd08b100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\83\
+	    New File  		      80	acf96d0c055bdf0556acda953f8c37cb0c6c38100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\87\
+	    New File  		      58	ad4d3d51d9ca3bfa7dd3693a09b352fe8b4a8d100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\8c\
+	    New File  		     123	90f0a204e167506bd7da89b842acb075ea7c4f100%  
+	  New Dir          2	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\8f\
+	    New File  		      50	117d000b0602de4055d8a14b85a5e6503ff076100%  
+	    New File  		      35	e23185846b1addae1a4723f55c66d119836398100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\96\
+	    New File  		     166	e6436b5707a9c9da69b7526deb7a88352d5f34100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\9b\
+	    New File  		      79	213c875736945335d777d8e25e9236bfbe065c100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\9e\
+	    New File  		      60	79f51b4bf8f74f83082a50f65a5bd763216e22100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\a0\
+	    New File  		      75	ac5fff14bd27b89731d06f1bc523222491a9c6100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\a1\
+	    New File  		      40	0b7503e63def2f75b6c7e108ac9f246d2dcf5d100%  
+	  New Dir          2	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\aa\
+	    New File  		      50	add4af476b5c3ddabaeb09951070c8d4cea2fa100%  
+	    New File  		      35	f2040f9a51812d82a44e753b6bac25c46f9cc1100%  
+	  New Dir          2	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\ab\
+	    New File  		      50	5ef2a5d4a58aa0543fe3c428c9a52d8399c9f5100%  
+	    New File  		      56	9760f4e7e2901332624eb010dfc38e52087b2d100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\b3\
+	    New File  		     104	9b78823ca318be9891dd9c991a7fbe211e83fd100%  
+	  New Dir          2	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\b5\
+	    New File  		      32	f10d7e39309a6e6780774e21b540fce4927f8b100%  
+	    New File  		      36	f5344df50e5b068c99374574217cfeaf791bbd100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\b7\
+	    New File  		     123	4d6bdab57cbd33dd9ca6848b14e02779bb876e100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\b9\
+	    New File  		     184	30edd0402f40d2a79b920865b5c44e7b81cf20100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\bf\
+	    New File  		      44	bd88d1117b389efbbd53abadb982c689d75aa2100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\c7\
+	    New File  		     179	c6af4e86595ac51350a9600b81571d82cad825100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\c9\
+	    New File  		      22	c90d6175479d96bb3fa177968de30f7ff41bd8100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\cd\
+	    New File  		    8813	62536d295e099e439b45a98a799f3d95fae4d3100%  
+	  New Dir          2	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\d3\
+	    New File  		     922	20c8242acf463d12bf4a098607683d822a75d8100%  
+	    New File  		     393	aa07e82c3fabf50b7b80b1bdd46f1d715a9375100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\d7\
+	    New File  		      26	9971a2851368a545e7e2cd0def6fd4cb6507fc100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\e1\
+	    New File  		      65	68a5c861167451f9ec03f4379e4234c002ded7100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\e6\
+	    New File  		      15	9de29bb2d1d6434b8b29ae775ad8c2e48c5391100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\eb\
+	    New File  		      49	1966a39a9f20528608364f83b7b59efcc8e74e100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\ec\
+	    New File  		      74	839179bf61a8a24edf0aae5b37606a69cc6df9100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\ee\
+	    New File  		     130	227e2fba3697fe736a84b221c9678f4f9c5e8a100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\f0\
+	    New File  		      50	c2a14a986a640110f7941080c2cdac98d815d1100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\fd\
+	    New File  		      64	3a5476004b4b37ba01038a837621295920444f100%  
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\fe\
+	    New File  		      50	ca41daaf2b045114c0738404fea9c005cb8815100%  
+	  New Dir          0	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\info\
+	  New Dir          2	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\objects\pack\
+	    New File  		    1156	pack-3a64850ab2a6c2e42dd7122101be676739c09367.idx100%  
+	    New File  		     590	pack-3a64850ab2a6c2e42dd7122101be676739c09367.pack100%  
+	  New Dir          0	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\refs\
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\refs\heads\
+	    New File  		      41	main100%  
+	  New Dir          0	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\refs\remotes\
+	  New Dir          2	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\refs\remotes\origin\
+	    New File  		      30	HEAD100%  
+	    New File  		      41	main100%  
+	  New Dir          0	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\.git\refs\tags\
+	  New Dir          1	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\Files\
+	    New File  		   22823	FileModifier.jar 99%  100%  
+	  New Dir         22	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\Files\accounting\
+	    New File  		     150	data_0100%  
+	    New File  		     230	data_1100%  
+	    New File  		     211	data_2100%  
+	    New File  		       5	data_3100%  
+	    New File  		      16	data_5100%  
+	    New File  		     229	data_6100%  
+	    New File  		      70	data_7100%  
+	    New File  		     223	data_8100%  
+	    New File  		      68	doc_0100%  
+	    New File  		      82	doc_1100%  
+	    New File  		      31	doc_2100%  
+	    New File  		      90	doc_5100%  
+	    New File  		     183	doc_8100%  
+	    New File  		      39	log_0100%  
+	    New File  		      88	log_1100%  
+	    New File  		      12	log_2100%  
+	    New File  		       8	log_3100%  
+	    New File  		     104	log_4100%  
+	    New File  		      61	log_5100%  
+	    New File  		      40	log_6100%  
+	    New File  		     173	log_7100%  
+	    New File  		      48	log_8100%  
+	  New Dir         20	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\Files\logistics\
+	    New File  		      69	data_0100%  
+	    New File  		      47	data_1100%  
+	    New File  		      38	data_2100%  
+	    New File  		     173	data_4100%  
+	    New File  		      18	data_6100%  
+	    New File  		       7	data_7100%  
+	    New File  		     141	data_8100%  
+	    New File  		      15	doc_1100%  
+	    New File  		       5	doc_2100%  
+	    New File  		      34	doc_3100%  
+	    New File  		     130	doc_4100%  
+	    New File  		     230	doc_6100%  
+	    New File  		      34	doc_7100%  
+	    New File  		      47	log_0100%  
+	    New File  		      96	log_2100%  
+	    New File  		      46	log_3100%  
+	    New File  		      54	log_4100%  
+	    New File  		      28	log_6100%  
+	    New File  		     248	log_7100%  
+	    New File  		      51	log_8100%  
+	  New Dir         23	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\Files\production\
+	    New File  		      47	data_0100%  
+	    New File  		      84	data_1100%  
+	    New File  		      96	data_2100%  
+	    New File  		     112	data_3100%  
+	    New File  		      41	data_5100%  
+	    New File  		      77	data_6100%  
+	    New File  		      38	data_7100%  
+	    New File  		      47	data_8100%  
+	    New File  		      45	doc_2100%  
+	    New File  		      19	doc_4100%  
+	    New File  		     159	doc_5100%  
+	    New File  		     189	doc_6100%  
+	    New File  		     117	doc_7100%  
+	    New File  		      42	doc_8100%  
+	    New File  		     100	log_0100%  
+	    New File  		      66	log_1100%  
+	    New File  		     159	log_2100%  
+	    New File  		     181	log_3100%  
+	    New File  		      79	log_4100%  
+	    New File  		      82	log_5100%  
+	    New File  		      25	log_6100%  
+	    New File  		     257	log_7100%  
+	    New File  		      54	log_8100%  
+	  New Dir         21	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\Files\project1\
+	    New File  		      16	data_1100%  
+	    New File  		      26	data_3100%  
+	    New File  		     191	data_4100%  
+	    New File  		     555	data_5100%  
+	    New File  		      34	data_6100%  
+	    New File  		      59	data_8100%  
+	    New File  		      53	doc_0100%  
+	    New File  		       5	doc_1100%  
+	    New File  		     199	doc_2100%  
+	    New File  		      12	doc_4100%  
+	    New File  		     203	doc_5100%  
+	    New File  		      30	doc_6100%  
+	    New File  		      29	doc_7100%  
+	    New File  		      36	doc_8100%  
+	    New File  		     310	log_1100%  
+	    New File  		      27	log_2100%  
+	    New File  		      74	log_4100%  
+	    New File  		      81	log_5100%  
+	    New File  		      97	log_6100%  
+	    New File  		      21	log_7100%  
+	    New File  		      77	log_8100%  
+	  New Dir         18	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\Files\project2\
+	    New File  		      57	data_0100%  
+	    New File  		     190	data_3100%  
+	    New File  		      47	data_5100%  
+	    New File  		     100	data_6100%  
+	    New File  		       1	data_7100%  
+	    New File  		     244	data_8100%  
+	    New File  		     376	doc_0100%  
+	    New File  		      21	doc_1100%  
+	    New File  		      67	doc_3100%  
+	    New File  		     122	doc_4100%  
+	    New File  		     213	doc_6100%  
+	    New File  		      57	doc_7100%  
+	    New File  		      96	doc_8100%  
+	    New File  		     181	log_0100%  
+	    New File  		      22	log_1100%  
+	    New File  		      74	log_2100%  
+	    New File  		      52	log_3100%  
+	    New File  		       1	log_7100%  
+	  New Dir         18	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\Files\sales\
+	    New File  		      68	data_0100%  
+	    New File  		      99	data_2100%  
+	    New File  		      34	data_3100%  
+	    New File  		      66	data_6100%  
+	    New File  		     144	data_7100%  
+	    New File  		       8	doc_0100%  
+	    New File  		      32	doc_2100%  
+	    New File  		      21	doc_3100%  
+	    New File  		      49	doc_4100%  
+	    New File  		      53	doc_5100%  
+	    New File  		     243	doc_7100%  
+	    New File  		      18	log_1100%  
+	    New File  		     232	log_2100%  
+	    New File  		       6	log_3100%  
+	    New File  		      17	log_5100%  
+	    New File  		      34	log_6100%  
+	    New File  		      40	log_7100%  
+	    New File  		      24	log_8100%  
+	  New Dir         17	C:\Users\Tom\Desktop\IN609_OE1\Files_Backup\Files\warehouse\
+	    New File  		      57	data_2100%  
+	    New File  		     153	data_3100%  
+	    New File  		       4	data_4100%  
+	    New File  		      36	data_5100%  
+	    New File  		      32	data_8100%  
+	    New File  		      81	doc_0100%  
+	    New File  		     117	doc_1100%  
+	    New File  		      31	doc_2100%  
+	    New File  		      72	doc_4100%  
+	    New File  		     150	doc_5100%  
+	    New File  		      60	doc_6100%  
+	    New File  		     111	doc_8100%  
+	    New File  		     143	log_0100%  
+	    New File  		     241	log_1100%  
+	    New File  		     197	log_2100%  
+	    New File  		     246	log_3100%  
+	    New File  		      59	log_5100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :       144       143         1         0         0         7
+   Files :       454       454         0         0         0       151
+   Bytes :    6.91 m    6.91 m         0         0         0    37.3 k
+   Times :   0:00:01   0:00:01                       0:00:00   0:00:00
+
+
+   Speed :             5740251 Bytes/sec.
+   Speed :             328.459 MegaBytes/min.
+   Ended : Friday, 31 March 2023 11:06:39 pm
+
